@@ -19,9 +19,9 @@ public class Tree {
             if (levels >= 5 && levels <= 20) {
                 flag = false;
             } else if (levels > 20) {
-                System.out.println("Za duża wartość");
+                System.out.println("Za duża wartość ");
             } else {
-                System.out.println("Za mała wartość");
+                System.out.println("Za mała wartość ");
             }
         }
         draw.drawTree(levels);
